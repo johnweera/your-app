@@ -93,7 +93,7 @@ export default function Home() {
               </span>
             </span>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-              Programming with JohnDev Weera
+              Programming with JohnDev
             </h1>
             <p className="max-w-2xl text-lg leading-relaxed text-slate-300 md:text-xl">
               Level up your engineering craft with practical tutorials, live
