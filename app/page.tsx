@@ -29,7 +29,8 @@ export default function Home() {
     },
     {
       title: "Ship faster with automated testing",
-      description: "Practical testing patterns using Vitest, Playwright, and GitHub Actions.",
+      description:
+        "Practical testing patterns using Vitest, Playwright, and GitHub Actions.",
       length: "18 min series",
     },
     {
@@ -92,11 +93,12 @@ export default function Home() {
               </span>
             </span>
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-              Programming with JohnDev
+              Programming with JohnDev Weera
             </h1>
             <p className="max-w-2xl text-lg leading-relaxed text-slate-300 md:text-xl">
-              Level up your engineering craft with practical tutorials, live coding sessions, and career
-              mentorship rooted in real product teams.
+              Level up your engineering craft with practical tutorials, live
+              coding sessions, and career mentorship rooted in real product
+              teams.
             </p>
           </div>
           <div className="flex flex-col items-center gap-4 md:flex-row">
@@ -115,15 +117,18 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="learning" className="mx-auto w-full max-w-6xl px-6 pb-24 lg:px-12">
+        <section
+          id="learning"
+          className="mx-auto w-full max-w-6xl px-6 pb-24 lg:px-12"
+        >
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div className="max-w-2xl">
               <h2 className="text-3xl font-semibold text-white md:text-4xl">
                 Build confidence faster
               </h2>
               <p className="mt-4 text-base text-slate-300">
-                Each program mirrors the pace of a real product team. No filler, just skills you can apply on
-                the job this week.
+                Each program mirrors the pace of a real product team. No filler,
+                just skills you can apply on the job this week.
               </p>
             </div>
             <a
@@ -142,20 +147,29 @@ export default function Home() {
                 <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-indigo-500/20 text-sm font-semibold text-indigo-200">
                   {feature.badge}
                 </span>
-                <h3 className="text-lg font-semibold text-white">{feature.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-slate-300">{feature.description}</p>
+                <h3 className="text-lg font-semibold text-white">
+                  {feature.title}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-slate-300">
+                  {feature.description}
+                </p>
               </div>
             ))}
           </div>
         </section>
 
-        <section id="curriculum" className="mx-auto w-full max-w-6xl px-6 pb-24 lg:px-12">
+        <section
+          id="curriculum"
+          className="mx-auto w-full max-w-6xl px-6 pb-24 lg:px-12"
+        >
           <div className="grid gap-12 lg:grid-cols-[2fr,1fr]">
             <div className="space-y-6">
-              <h3 className="text-3xl font-semibold text-white md:text-4xl">Latest tutorials</h3>
+              <h3 className="text-3xl font-semibold text-white md:text-4xl">
+                Latest tutorials
+              </h3>
               <p className="text-base text-slate-300">
-                Follow along step by step, fork the repos, and ship a polished feature by the end of each
-                session.
+                Follow along step by step, fork the repos, and ship a polished
+                feature by the end of each session.
               </p>
               <div className="space-y-4">
                 {tutorials.map((tutorial) => (
@@ -164,12 +178,16 @@ export default function Home() {
                     className="rounded-2xl border border-white/10 bg-white/5 p-6 transition hover:border-indigo-400/60 hover:bg-white/10"
                   >
                     <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-                      <h4 className="text-xl font-semibold text-white">{tutorial.title}</h4>
+                      <h4 className="text-xl font-semibold text-white">
+                        {tutorial.title}
+                      </h4>
                       <span className="inline-flex rounded-full border border-indigo-400/60 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-indigo-200">
                         {tutorial.length}
                       </span>
                     </div>
-                    <p className="mt-3 text-sm leading-relaxed text-slate-300">{tutorial.description}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-slate-300">
+                      {tutorial.description}
+                    </p>
                     <a
                       className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-indigo-200 transition hover:text-white"
                       href="#"
@@ -184,10 +202,12 @@ export default function Home() {
               <span className="text-xs font-semibold uppercase tracking-[0.35em] text-indigo-200">
                 Upcoming live
               </span>
-              <h4 className="text-2xl font-semibold text-white">Build a performance budget dashboard</h4>
+              <h4 className="text-2xl font-semibold text-white">
+                Build a performance budget dashboard
+              </h4>
               <p className="text-sm leading-relaxed text-slate-300">
-                Go behind the scenes on performance profiling and CI integration. Seats are limited to keep
-                Q and A personal.
+                Go behind the scenes on performance profiling and CI
+                integration. Seats are limited to keep Q and A personal.
               </p>
               <div className="flex flex-col gap-2 text-sm text-slate-300">
                 <span>Thursday 6:00 PM EST</span>
@@ -203,7 +223,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="community" className="mx-auto w-full max-w-6xl px-6 pb-24 lg:px-12">
+        <section
+          id="community"
+          className="mx-auto w-full max-w-6xl px-6 pb-24 lg:px-12"
+        >
           <div className="rounded-3xl border border-white/10 bg-white/5 p-10">
             <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
               <div className="max-w-3xl space-y-4">
@@ -214,15 +237,18 @@ export default function Home() {
                   Learn in public with engineers who are leveling up too
                 </h3>
                 <p className="text-base text-slate-300">
-                  Private Discord, accountability sprints, and pair-programming rooms keep you shipping with
-                  momentum.
+                  Private Discord, accountability sprints, and pair-programming
+                  rooms keep you shipping with momentum.
                 </p>
               </div>
               <div className="flex flex-col gap-3 rounded-2xl bg-slate-950/60 p-6 shadow-lg shadow-indigo-500/20">
                 <p className="text-4xl font-semibold text-white">3200+</p>
-                <p className="text-sm uppercase tracking-[0.35em] text-indigo-200">Active members</p>
+                <p className="text-sm uppercase tracking-[0.35em] text-indigo-200">
+                  Active members
+                </p>
                 <p className="text-sm leading-relaxed text-slate-300">
-                  Industry engineers from startups to FAANG share wins, failures, and code reviews daily.
+                  Industry engineers from startups to FAANG share wins,
+                  failures, and code reviews daily.
                 </p>
                 <a
                   className="mt-2 inline-flex items-center justify-center rounded-full bg-indigo-500 px-4 py-2 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-indigo-400"
@@ -235,15 +261,21 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="newsletter" className="mx-auto w-full max-w-5xl px-6 pb-20 lg:px-12">
+        <section
+          id="newsletter"
+          className="mx-auto w-full max-w-5xl px-6 pb-20 lg:px-12"
+        >
           <div className="rounded-3xl border border-white/10 bg-white/5 p-10">
             <div className="flex flex-col gap-6 text-center md:text-left">
               <span className="text-xs font-semibold uppercase tracking-[0.35em] text-indigo-200">
                 Weekly briefing
               </span>
-              <h3 className="text-3xl font-semibold text-white md:text-4xl">Stay in the loop with JohnDev</h3>
+              <h3 className="text-3xl font-semibold text-white md:text-4xl">
+                Stay in the loop with JohnDev
+              </h3>
               <p className="text-base text-slate-300">
-                A short Monday email with shipping lessons, tool recommendations, and live session invites.
+                A short Monday email with shipping lessons, tool
+                recommendations, and live session invites.
               </p>
               <form className="flex flex-col gap-4 sm:flex-row sm:items-center">
                 <input
@@ -260,14 +292,19 @@ export default function Home() {
                   Subscribe
                 </button>
               </form>
-              <p className="text-xs text-slate-500">No spam. Unsubscribe any time.</p>
+              <p className="text-xs text-slate-500">
+                No spam. Unsubscribe any time.
+              </p>
             </div>
           </div>
         </section>
 
         <footer className="border-t border-white/10 bg-slate-950/80">
           <div className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-6 py-8 text-center text-xs text-slate-500 md:flex-row md:items-center md:justify-between md:text-left lg:px-12">
-            <p>&copy; {new Date().getFullYear()} Programming with JohnDev. All rights reserved.</p>
+            <p>
+              &copy; {new Date().getFullYear()} Programming with JohnDev. All
+              rights reserved.
+            </p>
             <div className="flex items-center justify-center gap-6 md:justify-end">
               <a className="transition hover:text-white" href="#">
                 Terms
